@@ -1,6 +1,6 @@
 ---
 - name: Learning Playbook Writing
-  hosts: all
+  hosts: localhost
   tasks:
   - name: Installing vsftpd Package
     copy:
